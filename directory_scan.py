@@ -4,6 +4,9 @@
 import requests
 from bs4 import BeautifulSoup
 import gzip
+import fasta_parser as fp
+from Bio import SeqIO
+from Bio.Seq import Seq
 
 ##directory = r'../..'
 ##
@@ -11,8 +14,13 @@ import gzip
 ##for entry in os.scandir(directory):
 ##    print(entry.path)
 
+VERBOSE = True
+
 def getDirectories(url):
     '''returns the names of all the directories on a given page'''
+    if VERBOSE:
+        print("getting all directories at this url")
+        print(url)
 
     # https://stackoverflow.com/questions/11023530/python-to-list-http-files-and-directories/34718858
     page = requests.get(url).text
@@ -24,26 +32,23 @@ def getDirectories(url):
     # directory text/name ends in /
     directories = [node.getText() for node in soup.find_all('a') if node.getText().endswith('/')]
 
+    if VERBOSE:
+        print(directories)
+
     return directories
 
-url = 'https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_mammalian/'
-directories = getDirectories(url)
 
-# test on one species
-
-spec_dir = directories[0]
-
-
-
-def downloadFasta(spec_dir, out_folder):
+def downloadFasta(data_url, spec_dir, out_folder):
     '''download the Fasta for the species refseq CDS'''
     # download from /genomes/refseq/vertebrate_mammilian/[species]/representative/[first directory]
-    print(spec_dir)
+    if VERBOSE:
+        print(spec_dir)
     
     # find refseq name - the only directory listed on representative page
-    ref_seq_parent_url = url + f'{spec_dir}representative/'
+    ref_seq_parent_url = data_url + f'{spec_dir}representative/'
     ref_seq = getDirectories(ref_seq_parent_url)[0]
-    print(ref_seq)
+    if VERBOSE:
+        print(ref_seq)
 
     # get fasta for ref_seq/ref_seq_cds_from_genomic.fna.gz
     fasta_url = ref_seq_parent_url + ref_seq + ref_seq[:-1] + '_cds_from_genomic.fna.gz'
@@ -53,9 +58,39 @@ def downloadFasta(spec_dir, out_folder):
         fasta_gz = requests.get(fasta_url)
         file_content = gzip.decompress(fasta_gz.content)
         out.write(file_content)
-    
-# data = requests.get(fasta_url).text
 
 
-downloadFasta(spec_dir, '.')
+def collect_data(data_url, data_folder):
+    # find all species directories on the page
+    directories = getDirectories(data_url)
 
+    # test on three species
+    for i in range(3):
+        # species to download genome of
+        spec_dir = directories[i]
+
+        # download the fasta for the species
+        downloadFasta(data_url, spec_dir, data_folder)
+
+    return directories
+
+
+def calculate_CUB(data_folder, spec_dirs):
+    for i in range(3):
+        species = spec_dirs[i][:-1]  # remove final '/'
+
+        # combine the fasta into one long sequence
+        seq = fp.splice_fasta(f'{data_folder}/{species}.fna')
+
+        # calculate codon usage bias for sequence
+        print(str(seq)[:100])
+
+
+def main():
+    url = 'https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_mammalian/'
+    data_folder = 'data'
+    spec_dirs = collect_data(url, data_folder)
+    calculate_CUB(data_folder, spec_dirs)
+
+
+main()
