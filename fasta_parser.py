@@ -34,8 +34,9 @@ def splice_fasta(file_name):
 
 
 def splice_fasta_2(file_content):
+    """input: fasta file content as string"""
     # https://stackoverflow.com/questions/38358191/biopython-parse-from-variable-instead-of-file
-    with StringIO(file_content.decode('utf-8')) as f:
+    with StringIO(file_content) as f:
         records = SeqIO.parse(f, 'fasta')
         # print(list(records)[0:2])
         # print(list(records)[0].seq)

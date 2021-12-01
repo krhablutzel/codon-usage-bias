@@ -1,4 +1,5 @@
 import os
+import time
 import requests
 from bs4 import BeautifulSoup
 import gzip
@@ -16,7 +17,7 @@ def count_codons(seq):
         return -1
 
     codons = {}
-    for i in range(0, len(seq), 3):
+    for i in range(0, 300, 3):  # len(seq), 3):
         codon = str(seq[i:i+3])
         if codon in codons:
             codons[codon] += 1
@@ -70,8 +71,7 @@ def convert_to_fraction(codons):
     return freqs
 
 
-def calculate_CUB(data_folder, spec_list, taxon):
-    cub_dfs = []
+def calculate_CUB_stored_file(data_folder, spec_list, taxon, out_csv):
     for i in range(3):
         species = spec_list[i]
         print(species)
@@ -97,33 +97,93 @@ def calculate_CUB(data_folder, spec_list, taxon):
         data["Species"] = [species]
         data["Taxon"] = [taxon]
         # data["AccessionNum"] = [] ???
-        cub_dfs.append(data)  # store w/ all species dfs
+        data.to_csv(out_csv, mode='a', index=False)  # append row of data
         print(data)
 
-    return pd.concat(cub_dfs)
+
+def calculate_CUB(seq, species, taxon, out_csv):
+    # calculate codon usage bias for sequence
+    print(str(seq)[:100])
+    print(f'len: {len(seq)}')
+
+    codons = count_codons(seq)
+    # print(codons)
+
+    if codons != -1:
+        freqs = convert_to_fraction(codons)
+        print(freqs)
+
+    data = pd.DataFrame.from_dict(freqs)
+    data["Species"] = [species]
+    data["Taxon"] = [taxon]
+    # data["AccessionNum"] = [] ???
+    data.to_csv(out_csv, mode='a', index=False)  # append row of data
+    print(data)
+
+
+def calculate_CUB_stored_files(data_folder, spec_list, taxon, out_csv):
+    """calculate CUB for multiple locally stored files in a list"""
+    for i in range(3):
+        species = spec_list[i]
+        print(species)
+
+        # combine the fasta into one long sequence
+        dna = fp.splice_fasta(f'{data_folder}/{species}.fna')
+
+        # transcribe to RNA
+        seq = dna.transcribe()
+
+        # calculate CUB
+        calculate_CUB(seq, species, taxon, out_csv)
+
+
+def collect_and_calculate_CUB(data_url, taxon, out_csv):
+    # find all species directories on the page
+    directories = ds.getDirectories(data_url)
+
+    # test on three species
+    for spec_dir in directories:
+        species = spec_dir[:-1]
+
+        # download fasta genome from ncbi (w/o saving locally)
+        file_content = ds.downloadFasta(data_url, spec_dir, download=False)
+
+        # combine the fasta into one long sequence
+        dna = fp.splice_fasta_2(file_content)
+
+        # todo: add fasta parser method to store other metadata:
+        # accession number, length, ?
+        # todo: write to csv without repeat headers, but make sure columns match
+        # maybe keeo a working csv to append to each time, and also create a big df to export at the end?
+
+        # transcribe to RNA
+        seq = dna.transcribe()
+
+        # calculate CUB
+        calculate_CUB(seq, species, taxon, out_csv)
+
+    return directories
 
 
 def main():
     taxa = ["vertebrate_mammalian", "vertebrate_other", "invertebrate", "plant", "viral"]
-    all_cub_dfs = []
     for taxon in taxa:
         url = f'https://ftp.ncbi.nlm.nih.gov/genomes/refseq/{taxon}/'
         data_folder = 'data'
         download = True  # whether to download new data from ncbi
+        from_memory = False  # whether to calculate based on local fasta files
         if download:
             spec_list = [spec[:-1] for spec in ds.collect_data(url, data_folder)]
-        else:
+            calculate_CUB_stored_files(data_folder, spec_list, taxon, "cub.csv")
+        elif from_memory:
             # get every fna filename in data_folder
             # https://python-forum.io/thread-10014.html
-            spec_list = [entry.name[:-4] for entry in os.scandir(data_folder) if (entry.is_file() and entry.name[-4:] == ".fna")]
+            spec_list = [entry.name[:-4] for entry in os.scandir(data_folder)
+                         if (entry.is_file() and entry.name[-4:] == ".fna")]
             print(spec_list)
-        cub_df = calculate_CUB(data_folder, spec_list, taxon)
-        all_cub_dfs.append(cub_df)  # store with cub tables for other taxa
-
-    # combine all cub tables into one
-    all_cub = pd.concat(all_cub_dfs)
-
-    all_cub.to_csv('cub.csv', index=False)
+            calculate_CUB_stored_files(data_folder, spec_list, taxon, "cub.csv")
+        else:  # new best mode - download seq only temporarily to calculate cub
+            collect_and_calculate_CUB(url, taxon, "cub.csv")
 
 
 
