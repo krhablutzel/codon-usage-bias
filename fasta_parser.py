@@ -17,10 +17,13 @@ def splice_fasta(file_name):
     # for record in records:
     #     print(record)
     #     print(record.seq)
-    cds_genome = spacer.join([record.seq for record in records])
 
-    records = SeqIO.parse(file_name, 'fasta')
-    print([len(record.seq) % 3 for record in records])
+    # only include proteins within correct reading frame and starting with ATG
+    cds_genome = spacer.join([record.seq for record in records
+                              if len(record.seq) % 3 == 0 and record.seq[:3] == Seq('ATG')])
+
+    # records = SeqIO.parse(file_name, 'fasta')
+    # print(sum([len(record.seq) % 3 for record in records if len(record.seq) % 3 == 0]))
 
     # print('cds genome:')
     # print(cds_genome)
