@@ -1,5 +1,3 @@
-## test
-
 # import os
 import requests
 from bs4 import BeautifulSoup
@@ -75,22 +73,3 @@ def collect_data(data_url, data_folder):
     return directories
 
 
-def calculate_CUB(data_folder, spec_dirs):
-    for i in range(3):
-        species = spec_dirs[i][:-1]  # remove final '/'
-
-        # combine the fasta into one long sequence
-        seq = fp.splice_fasta(f'{data_folder}/{species}.fna')
-
-        # calculate codon usage bias for sequence
-        print(str(seq)[:100])
-
-
-def main():
-    url = 'https://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_mammalian/'
-    data_folder = 'data'
-    spec_dirs = collect_data(url, data_folder)
-    calculate_CUB(data_folder, spec_dirs)
-
-
-main()

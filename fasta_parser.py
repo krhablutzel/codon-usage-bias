@@ -19,6 +19,9 @@ def splice_fasta(file_name):
     #     print(record.seq)
     cds_genome = spacer.join([record.seq for record in records])
 
+    records = SeqIO.parse(file_name, 'fasta')
+    print([len(record.seq) % 3 for record in records])
+
     # print('cds genome:')
     # print(cds_genome)
 
