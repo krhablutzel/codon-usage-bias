@@ -156,20 +156,21 @@ def collect_and_calculate_CUB(data_url, taxon):
     taxon_cubs = []
     # test on three species
     for spec_dir in directories:
-        # wait a moment before moving to next species
-        # to avoid overwhelming the servers and getting blocked
-        time.sleep(5)
-
         # for skipping to homo sapiens
         short_run = False
         if short_run:
             if spec_dir[0] != "H":
                 continue
 
+        # wait a moment before moving to next species
+        # to avoid overwhelming the servers and getting blocked
+        time.sleep(5)
+
         species = spec_dir[:-1]
 
         # download fasta genome from ncbi (w/o saving locally)
-        result = ds.downloadFasta(data_url, spec_dir, download=False)
+        viral = taxon == "viral"  # boolean flag
+        result = ds.downloadFasta(data_url, spec_dir, download=False, viral=viral)
         if result is None:
             continue
 
@@ -189,7 +190,8 @@ def collect_and_calculate_CUB(data_url, taxon):
 
 
 def main():
-    taxa = ["vertebrate_mammalian", "vertebrate_other", "invertebrate", "plant", "viral"]
+    # taxa = ["vertebrate_mammalian", "vertebrate_other", "invertebrate", "plant", "viral"]
+    taxa = ["viral"]
     # todo: viral genomes from latest_assembly_versions/
     all_cubs = []
     for taxon in taxa:

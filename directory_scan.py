@@ -50,14 +50,19 @@ def getDirectories(url, level=0):
     return directories
 
 
-def downloadFasta(data_url, spec_dir, out_folder=".", download=True):
+def downloadFasta(data_url, spec_dir, out_folder=".", download=True, viral=False):
     """download the Fasta for the species refseq CDS"""
     # download from /genomes/refseq/vertebrate_mammilian/[species]/representative/[first directory]
     if VERBOSE:
         print(spec_dir)
     
     # find refseq name - the only directory listed on representative page
-    ref_seq_parent_url = data_url + f'{spec_dir}representative/'
+    # or latest_assembly_version for viral genomes
+    if viral:
+        sub_dir = 'latest_assembly_versions/'
+    else:
+        sub_dir = 'representative/'
+    ref_seq_parent_url = data_url + f'{spec_dir}{sub_dir}'
     ref_seq = getDirectories(ref_seq_parent_url)
     if ref_seq is None:
         return
