@@ -1,5 +1,6 @@
 # import os
 import time
+import random
 import requests
 from bs4 import BeautifulSoup
 import gzip
@@ -15,11 +16,19 @@ from Bio.Seq import Seq
 
 VERBOSE = True
 
-def getDirectories(url):
-    '''returns the names of all the directories on a given page'''
+
+def getDirectories(url, level=0):
+    """returns the names of all the directories on a given page"""
     if VERBOSE:
         print("getting all directories at this url")
         print(url)
+
+    time.sleep(random.randint(3, 8))  # wait a bit so we don't query too fast (triggers ncbi access block)
+
+    if level >= 3:  # still blocked from NCBI servers
+        with open("error_log.txt", "a") as f:
+            f.write("cannot access \n" + url + "\n")
+            return
 
     # https://stackoverflow.com/questions/11023530/python-to-list-http-files-and-directories/34718858
     page = requests.get(url).text
@@ -35,8 +44,8 @@ def getDirectories(url):
         print(directories)
 
     if not directories:  # ncbi mistook query for DOS attack and blocked access
-        time.sleep(90)   # wait a bit before continuing to query
-        return getDirectories(url)
+        time.sleep(30*(level+1))   # wait a bit before continuing to query
+        return getDirectories(url, level=level+1)
 
     return directories
 
@@ -49,7 +58,11 @@ def downloadFasta(data_url, spec_dir, out_folder=".", download=True):
     
     # find refseq name - the only directory listed on representative page
     ref_seq_parent_url = data_url + f'{spec_dir}representative/'
-    ref_seq = getDirectories(ref_seq_parent_url)[0]
+    ref_seq = getDirectories(ref_seq_parent_url)
+    if ref_seq is None:
+        return
+    else:
+        ref_seq = ref_seq[0]
     if VERBOSE:
         print(ref_seq)
 
@@ -62,10 +75,11 @@ def downloadFasta(data_url, spec_dir, out_folder=".", download=True):
             fasta_gz = requests.get(fasta_url)
             file_content = gzip.decompress(fasta_gz.content)
             out.write(file_content)
+        return ref_seq[:-1]
     else:  # return file content rather than downloading
         fasta_gz = requests.get(fasta_url)
         file_content = gzip.decompress(fasta_gz.content)
-        return file_content.decode("utf-8")
+        return ref_seq[:-1], file_content.decode("utf-8")
 
 
 def collect_data(data_url, data_folder):

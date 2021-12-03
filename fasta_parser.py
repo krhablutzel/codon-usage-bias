@@ -41,5 +41,6 @@ def splice_fasta_2(file_content):
         # print(list(records)[0:2])
         # print(list(records)[0].seq)
         spacer = Seq('')
-        cds_genome = spacer.join([record.seq for record in records])
+        cds_genome = spacer.join([record.seq for record in records
+                              if len(record.seq) % 3 == 0 and record.seq[:3] == Seq('ATG')])
     return cds_genome
