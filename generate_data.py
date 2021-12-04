@@ -82,25 +82,7 @@ def calculate_CUB_stored_file(data_folder, spec_list, taxon):
         # transcribe to RNA
         seq = dna.transcribe()
 
-        # calculate codon usage bias for sequence
-        print(str(seq)[:100])
-        print(f'len: {len(seq)}')
-
-        codons = count_codons(seq)
-        # print(codons)
-
-        if codons != -1:
-            freqs = convert_to_fraction(codons)
-            # print(freqs)
-
-            data = pd.DataFrame.from_dict(freqs)
-            data["Species"] = [species]
-            data["Taxon"] = [taxon]
-            # data["AccessionNum"] = [] ???
-            data.to_csv("working.csv", mode='a', index=False)  # append row of data
-            print(data)
-
-            return data
+        return calculate_CUB(seq, species, taxon)  # doesn't currently support accession nums
 
 
 def calculate_CUB(seq, species, taxon, accession_num="NA"):
@@ -113,7 +95,7 @@ def calculate_CUB(seq, species, taxon, accession_num="NA"):
 
     if codons != -1:
         freqs = convert_to_fraction(codons)
-        print(freqs)
+        # print(freqs)
 
         data = pd.DataFrame.from_dict(freqs)
         data["AccessionNum"] = [accession_num]
@@ -146,16 +128,27 @@ def calculate_CUB_stored_files(data_folder, spec_list, taxon):
     return taxon_cubs
 
 
-def collect_and_calculate_CUB(data_url, taxon):
-    # find all species directories on the page
-    directories = ds.getDirectories(data_url)
+def collect_and_calculate_CUB(data_url, taxon, exclude_spec=[], include_spec=[]):
+    if not include_spec:
+        # find all species directories on the page
+        include_spec = ds.getDirectories(data_url)
 
-    if directories is None:
+    with open("viral_species.txt", "w") as f:
+        f.write("\n".join(include_spec))  # string of species directories from viral page
+
+    if include_spec is None:
         return
 
+    # remove species we've already calculated cub for
+    all_species = [species for species in include_spec if species[:-1] not in exclude_spec]
+
+    # print the species we're about to iterate over
+    all_species.sort(reverse=True)  # iterate from Z viruses b/c blocked from A still
+    print("iterating on:", all_species[:min(len(all_species), 20)])  # print up to 20 directories
+
     taxon_cubs = []
-    # test on three species
-    for spec_dir in directories:
+    # calculate cub for all species directories
+    for spec_dir in all_species:
         # for skipping to homo sapiens
         short_run = False
         if short_run:
@@ -192,24 +185,39 @@ def collect_and_calculate_CUB(data_url, taxon):
 def main():
     # taxa = ["vertebrate_mammalian", "vertebrate_other", "invertebrate", "plant", "viral"]
     taxa = ["viral"]
-    # todo: viral genomes from latest_assembly_versions/
     all_cubs = []
     for taxon in taxa:
         url = f'https://ftp.ncbi.nlm.nih.gov/genomes/refseq/{taxon}/'
         data_folder = 'data'
         download = False  # whether to download new data from ncbi
         from_memory = False  # whether to calculate based on local fasta files
-        if download:
+        resume_run = True  # resume from interrupted run
+        run_from_species_urls = True  # run from list of species urls (from error log)
+        if download:  # download every genome to local storage
             spec_list = [spec[:-1] for spec in ds.collect_data(url, data_folder)]
             taxon_cubs = calculate_CUB_stored_files(data_folder, spec_list, taxon)
-        elif from_memory:
+        elif from_memory:  # calculate cub from locally stored files
             # get every fna filename in data_folder
             # https://python-forum.io/thread-10014.html
             spec_list = [entry.name[:-4] for entry in os.scandir(data_folder)
                          if (entry.is_file() and entry.name[-4:] == ".fna")]
             print(spec_list)
             taxon_cubs = calculate_CUB_stored_files(data_folder, spec_list, taxon)
-        else:  # new best mode - download seq only temporarily to calculate cub
+        elif resume_run:  # make sure to start from the taxon we stopped at!
+            fp.clean_working_csv()
+            existing_data = pd.read_csv("working_clean.csv")
+            exclude_spec = list(existing_data["Species"])
+            print("Excluding\n", exclude_spec[:20])
+            if run_from_species_urls:
+                with open("viral_species_2.txt", "r") as spec_file:
+                    lines = spec_file.readlines()
+                    include_spec = [line[:-1] for line in lines]  # remove \n
+                    print("Including\n", include_spec[:20])
+            else:
+                include_spec = []
+            new_data = collect_and_calculate_CUB(url, taxon, exclude_spec, include_spec)
+            taxon_cubs = pd.concat([existing_data, new_data])
+        else:  # most cohesive mode - download seq only temporarily to calculate cub
             taxon_cubs = collect_and_calculate_CUB(url, taxon)
         all_taxa = pd.concat(taxon_cubs)
         all_cubs.append(all_taxa)
@@ -219,7 +227,6 @@ def main():
     out_file = "cub.csv"
     out_cub = pd.concat(all_cubs)
     out_cub.to_csv(out_file, index=False)
-
 
 
 main()

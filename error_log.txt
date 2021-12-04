@@ -65,3 +65,20 @@ https://ftp.ncbi.nlm.nih.gov/genomes/refseq/plant/Dendrobium_catenatum/represent
 cannot access 
 https://ftp.ncbi.nlm.nih.gov/genomes/refseq/plant/Dendrobium_officinale/representative/
 cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/White_clover_cryptic_virus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Wheat_streak_mosaic_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Wenzhou_shrimp_virus_4/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Wenzhou_picorna-like_virus_46/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Wenling_narna-like_virus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Wenling_hepe-like_virus_1/latest_assembly_versions/
+not gzipped
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Vicia_cryptic_virus_M/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Vicia_cryptic_virus_M/latest_assembly_versions/GCF_002818175.1_ASM281817v1/GCF_002818175.1_ASM281817v1_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Vibrio_virus_VP4B/latest_assembly_versions/

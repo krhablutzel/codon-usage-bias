@@ -41,7 +41,7 @@ def getDirectories(url, level=0):
     directories = [node.getText() for node in soup.find_all('a') if node.getText().endswith('/')]
 
     if VERBOSE:
-        print(directories)
+        print(directories[:min(len(directories), 20)])  # print up to first 20 directories
 
     if not directories:  # ncbi mistook query for DOS attack and blocked access
         time.sleep(30*(level+1))   # wait a bit before continuing to query
@@ -63,6 +63,15 @@ def downloadFasta(data_url, spec_dir, out_folder=".", download=True, viral=False
     else:
         sub_dir = 'representative/'
     ref_seq_parent_url = data_url + f'{spec_dir}{sub_dir}'
+
+    # skip url if in error log
+    errors = fp.report_error_log()
+    # print("errors:", errors)
+    if ref_seq_parent_url in errors:  # TODO: skip this url - not working currently???
+        print("skipping - see error log")
+        return
+
+    # else, find refseq name
     ref_seq = getDirectories(ref_seq_parent_url)
     if ref_seq is None:
         return
@@ -74,17 +83,23 @@ def downloadFasta(data_url, spec_dir, out_folder=".", download=True, viral=False
     # get fasta for ref_seq/ref_seq_cds_from_genomic.fna.gz
     fasta_url = ref_seq_parent_url + ref_seq + ref_seq[:-1] + '_cds_from_genomic.fna.gz'
 
-    if download:
-        # write decompressed fasta
-        with open(out_folder + '/' + spec_dir[:-1] + '.fna', 'wb') as out:
+    try:
+        if download:
+            # write decompressed fasta
+            with open(out_folder + '/' + spec_dir[:-1] + '.fna', 'wb') as out:
+                fasta_gz = requests.get(fasta_url)
+                file_content = gzip.decompress(fasta_gz.content)
+                out.write(file_content)
+            return ref_seq[:-1]
+        else:  # return file content rather than downloading
             fasta_gz = requests.get(fasta_url)
             file_content = gzip.decompress(fasta_gz.content)
-            out.write(file_content)
-        return ref_seq[:-1]
-    else:  # return file content rather than downloading
-        fasta_gz = requests.get(fasta_url)
-        file_content = gzip.decompress(fasta_gz.content)
-        return ref_seq[:-1], file_content.decode("utf-8")
+            return ref_seq[:-1], file_content.decode("utf-8")
+    except:  # handles when there is no '_cds_from_genomic.fna.gz' file for this virus
+        print("cds does not exist")
+        with open("error_log.txt", "a") as f:
+            f.write("cds does not exist for \n" + fasta_url + "\n")
+            return
 
 
 def collect_data(data_url, data_folder):

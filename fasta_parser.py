@@ -44,3 +44,47 @@ def splice_fasta_2(file_content):
         cds_genome = spacer.join([record.seq for record in records
                               if len(record.seq) % 3 == 0 and record.seq[:3] == Seq('ATG')])
     return cds_genome
+
+
+def clean_working_csv():
+    """Remove duplicate headers from working.csv output file"""
+    with open("working.csv", "r") as working:
+        keep_content = working.readline()  # read header
+        new_line = working.readline()  # read next line
+        count = 1
+        while new_line:  # keep every other next line
+            if count % 2 == 1:  # lines 1, 3, etc.
+                keep_content += new_line
+            new_line = working.readline()
+            count += 1
+
+        with open("working_clean.csv", "w") as f:
+            f.write(keep_content)
+
+
+def report_error_log():
+    """Return lists of species we can't access yet"""
+    cannot_access = []
+    with open("error_log.txt", "r") as f:
+        new_line = f.readline()
+        count = 0
+        access = False
+        while new_line:
+            if count % 2 == 0:
+                if "access" in new_line:
+                    access = True
+                else:
+                    access = False
+            elif access:  # can't access this url
+                cannot_access.append(new_line[:-1])  # remove \n at end of url
+                access = False
+            new_line = f.readline()
+            count += 1
+
+    return cannot_access
+
+
+with open("viral_species_2.txt", "r") as f:
+    print(f.readlines())
+# run fasta_parser to clean the working.csv in this directory
+# clean_working_csv()
