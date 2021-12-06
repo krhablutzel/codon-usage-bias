@@ -157,7 +157,7 @@ def collect_and_calculate_CUB(data_url, taxon, exclude_spec=[], include_spec=[])
 
         # wait a moment before moving to next species
         # to avoid overwhelming the servers and getting blocked
-        time.sleep(5)
+        # time.sleep(5)
 
         species = spec_dir[:-1]
 

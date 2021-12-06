@@ -84,7 +84,5 @@ def report_error_log():
     return cannot_access
 
 
-with open("viral_species_2.txt", "r") as f:
-    print(f.readlines())
 # run fasta_parser to clean the working.csv in this directory
-# clean_working_csv()
+clean_working_csv()

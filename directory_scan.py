@@ -23,7 +23,8 @@ def getDirectories(url, level=0):
         print("getting all directories at this url")
         print(url)
 
-    time.sleep(random.randint(3, 8))  # wait a bit so we don't query too fast (triggers ncbi access block)
+    # time.sleep(random.randint(3, 8))  # wait a bit so we don't query too fast (triggers ncbi access block)
+    time.sleep(random.randint(5, 8))  # wait a bit so we don't query too fast (triggers ncbi access block)
 
     if level >= 3:  # still blocked from NCBI servers
         with open("error_log.txt", "a") as f:
@@ -44,8 +45,12 @@ def getDirectories(url, level=0):
         print(directories[:min(len(directories), 20)])  # print up to first 20 directories
 
     if not directories:  # ncbi mistook query for DOS attack and blocked access
-        time.sleep(30*(level+1))   # wait a bit before continuing to query
-        return getDirectories(url, level=level+1)
+        # go quickly - reverse this later
+        # time.sleep(30*(level+1))   # wait a bit before continuing to query
+        # return getDirectories(url, level=level+1)
+        with open("error_log.txt", "a") as f:
+            f.write("cannot access \n" + url + "\n")
+            return
 
     return directories
 

@@ -82,3 +82,1111 @@ cds does not exist for
 https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Vicia_cryptic_virus_M/latest_assembly_versions/GCF_002818175.1_ASM281817v1/GCF_002818175.1_ASM281817v1_cds_from_genomic.fna.gz
 cannot access 
 https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Vibrio_virus_VP4B/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Vibrio_phage_pYD21-A/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Vibrio_phage_1.238.A._10N.261.52.F10/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Verbesina_encelioides_leaf_curl_alphasatellite/latest_assembly_versions/GCF_000892815.1_ViralProj67961/GCF_000892815.1_ViralProj67961_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Velvet_tobacco_mottle_virus_Satellite_RNA/latest_assembly_versions/GCF_000839285.1_ViralProj14194/GCF_000839285.1_ViralProj14194_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Varroa_destructor_virus_2/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Vaprio_ledantevirus/latest_assembly_versions/GCF_004788715.1_ASM478871v1/GCF_004788715.1_ASM478871v1_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Ustilaginoidea_virens_partitivirus_2/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tylonycteris_bat_coronavirus_HKU4/latest_assembly_versions/GCF_000870045.1_ViralProj17585/GCF_000870045.1_ViralProj17585_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Turnip_crinkle_virus_satellite_RNA/latest_assembly_versions/GCF_000843865.1_ViralProj14433/GCF_000843865.1_ViralProj14433_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tupaia_narmovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tupaia_hepatovirus_A/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Trichoplusia_ni_single_nucleopolyhedrovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Trichoplusia_ni_ascovirus_2a/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Trichomonas_vaginalis_virus_dsRNA_satellite_S1prime/latest_assembly_versions/GCF_001271055.1_ViralProj293051/GCF_001271055.1_ViralProj293051_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Trichomonas_vaginalis_virus_dsRNA_satellite_S1/latest_assembly_versions/GCF_001271215.1_ViralProj293052/GCF_001271215.1_ViralProj293052_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tremovirus_A/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Torque_teno_virus_22/latest_assembly_versions/GCF_002986205.1_ASM298620v1/GCF_002986205.1_ASM298620v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Torque_teno_virus_18/latest_assembly_versions/GCF_002986195.1_ASM298619v1/GCF_002986195.1_ASM298619v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Torque_teno_virus_17/latest_assembly_versions/GCF_002986165.1_ASM298616v1/GCF_002986165.1_ASM298616v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Torque_teno_virus/latest_assembly_versions/GCF_000893775.1_ViralProj70005/GCF_000893775.1_ViralProj70005_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Torque_teno_midi_virus_10/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Torque_teno_chlorocebus_virus_5/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Torchivirus_A/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_yellow_margin_leaf_curl_virus/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_yellow_leaf_distortion_deltasatellite_2/latest_assembly_versions/GCF_002830505.1_ASM283050v1/GCF_002830505.1_ASM283050v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_yellow_leaf_distortion_deltasatellite_1/latest_assembly_versions/GCF_002830485.1_ASM283048v1/GCF_002830485.1_ASM283048v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_yellow_leaf_curl_Thailand_alphasatellite/latest_assembly_versions/GCF_000842325.1_ViralProj14300/GCF_000842325.1_ViralProj14300_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_yellow_dwarf_disease_associated_satellite_DNA_beta-_Kochi_/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_rugose_yellow_leaf_curl_virus/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_planta_macho_viroid/latest_assembly_versions/GCF_000856425.1_ViralProj15000/GCF_000856425.1_ViralProj15000_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_leaf_curl_deltasatellite/latest_assembly_versions/GCF_000843845.1_ViralProj14428/GCF_000843845.1_ViralProj14428_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_leaf_curl_Yunnan_betasatellite/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_leaf_curl_Hsinchu_virus/latest_assembly_versions/GCF_000868785.1_ViralProj18627/GCF_000868785.1_ViralProj18627_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_leaf_curl_Hajipur_betasatellite/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_leaf_curl_Cebu_virus/latest_assembly_versions/GCF_000875005.1_ViralProj28987/GCF_000875005.1_ViralProj28987_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_leaf_curl_Bangladesh_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_leaf_curl_Bangladesh_betasatellite/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_golden_leaf_spot_virus/latest_assembly_versions/GCF_000909455.1_ViralProj209726/GCF_000909455.1_ViralProj209726_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_golden_leaf_distortion_virus/latest_assembly_versions/GCF_002823965.1_ASM282396v1/GCF_002823965.1_ASM282396v1_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_chlorotic_mottle_Guyane_virus/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_chlorotic_dwarf_viroid/latest_assembly_versions/GCF_000855405.1_ViralProj14973/GCF_000855405.1_ViralProj14973_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_chino_La_Paz_virus/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_bushy_stunt_virus_satellite_RNA/latest_assembly_versions/GCF_000846405.1_ViralProj14430/GCF_000846405.1_ViralProj14430_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_blistering_mosaic_tymovirus/latest_assembly_versions/GCF_000911635.1_ViralProj213013/GCF_000911635.1_ViralProj213013_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_apical_stunt_viroid/latest_assembly_versions/GCF_000848345.1_ViralProj14670/GCF_000848345.1_ViralProj14670_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tobacco_ringspot_virus_satellite_RNA/latest_assembly_versions/GCF_000840125.1_ViralProj14189/GCF_000840125.1_ViralProj14189_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tobacco_mosaic_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tobacco_mild_green_mosaic_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tobacco_leaf_curl_Thailand_virus/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tobacco_bushy_top_virus_satellite-like_RNA/latest_assembly_versions/GCF_000844225.1_ViralProj14511/GCF_000844225.1_ViralProj14511_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tobacco_albetovirus_3/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tobacco_albetovirus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tioga_picorna-like_virus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tick-borne_encephalitis_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Thysanoplusia_orichalcea_nucleopolyhedrovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Thiafora_orthonairovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Thermus_virus_P23-77/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Thermus_virus_P23-45/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tetraselmis_viridis_virus_SI1/latest_assembly_versions/GCF_000905475.1_ViralProj195491/GCF_000905475.1_ViralProj195491_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Synechococcus_virus_Syn5/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Synechococcus_virus_Syn30/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Synechococcus_virus_SSKS1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Synechococcus_phage_S-WAM1/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Synechococcus_phage_KBS-M-1A/latest_assembly_versions/GCF_000906995.1_ViralProj195500/GCF_000906995.1_ViralProj195500_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Synechococcus_phage_ACG-2014a/latest_assembly_versions/GCF_000982265.1_ViralProj282476/GCF_000982265.1_ViralProj282476_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sweet_potato_leaf_curl_deltasatellite_3/latest_assembly_versions/GCF_002830465.1_ASM283046v1/GCF_002830465.1_ASM283046v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sweet_potato_leaf_curl_deltasatellite_2/latest_assembly_versions/GCF_000925215.2_ViralProj263030/GCF_000925215.2_ViralProj263030_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sweet_potato_leaf_curl_deltasatellite_1/latest_assembly_versions/GCF_000894135.1_ViralProj80873/GCF_000894135.1_ViralProj80873_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sweet_clover_necrotic_mosaic_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Swagivirus_HG/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sunflower_mild_mosaic_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sulfolobus_spindle-shaped_virus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sulfolobus_islandicus_rod-shaped_virus_6/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sulfitobacter_virus_phiCB2047B/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sulfitobacter_phage_pCB2047-C/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sugarcane_chlorotic_streak_virus/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Subterranean_clover_mottle_virus_satellite_RNA/latest_assembly_versions/GCF_000846765.1_ViralProj14503/GCF_000846765.1_ViralProj14503_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Striped_jack_nervous_necrosis_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Streptomyces_virus_Jay2Jay/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Streptomyces_virus_Hiyaa/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Streptomyces_virus_Blueeyedbeauty/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Streptococcus_phage_T12/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Streptococcus_phage_PH10/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Stenotrophomonas_virus_SMA9/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_virus_st5/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_virus_UPMK2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_virus_StauST398-3/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_virus_PH15/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_virus_P630/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_virus_P282/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_virus_IME1348-01/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_virus_CN125/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_virus_Baq_Sau1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_virus_96/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_virus_69/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_virus_3MRA/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_virus_3AJ2017/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_phage_phi7401PVL/latest_assembly_versions/GCF_000906595.1_ViralProj188545/GCF_000906595.1_ViralProj188545_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_phage_phi5967PVL/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Staphylococcus_phage_SA46-CL1/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Squirrelpox_virus_Berlin_2015/latest_assembly_versions/GCF_002354965.1_ViralProj406966/GCF_002354965.1_ViralProj406966_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sporobolus_striate_mosaic_virus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Spider_associated_cyclovirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Soybean_Putnam_virus/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Solanum_nodiflorum_mottle_virus_satellite_RNA/latest_assembly_versions/GCF_000837585.1_ViralProj14184/GCF_000837585.1_ViralProj14184_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sogatella_furcifera_totivirus_1/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Snyder-Theilen_feline_sarcoma_virus/latest_assembly_versions/GCF_002866945.1_ASM286694v1/GCF_002866945.1_ASM286694v1_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Snake_atadenovirus_A/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Small_begomovirus-associated_satellite/latest_assembly_versions/GCF_000922435.1_ViralProj259986/GCF_000922435.1_ViralProj259986_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sint-Jan_onion_latent_virus/latest_assembly_versions/GCF_002817675.1_ASM281767v1/GCF_002817675.1_ASM281767v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Simbu_orthobunyavirus/latest_assembly_versions/GCF_000897575.1_ViralMultiSegProj173359/GCF_000897575.1_ViralMultiSegProj173359_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sida_yellow_vein_China_alphasatellite/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sida_mottle_Alagoas_virus/latest_assembly_versions/GCF_000904175.1_ViralProj189218/GCF_000904175.1_ViralProj189218_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sida_mosaic_Sinaloa_virus/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sida_golden_yellow_vein_deltasatellite_3/latest_assembly_versions/GCF_002830445.1_ASM283044v1/GCF_002830445.1_ASM283044v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sida_golden_yellow_vein_deltasatellite_2/latest_assembly_versions/GCF_002830425.1_ASM283042v1/GCF_002830425.1_ASM283042v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sida_golden_yellow_vein_deltasatellite_1/latest_assembly_versions/GCF_002830405.1_ASM283040v1/GCF_002830405.1_ASM283040v1_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Shuangao_insect_virus_7/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Shuangao_anphevirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Shuangao_alphatetra-like_virus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Shigella_virus_Shfl2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Shigella_virus_SHBML501/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Shigella_virus_7502Stx/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Shigella_phage_KNP5/latest_assembly_versions/GCF_002709885.1_ASM270988v1/GCF_002709885.1_ASM270988v1_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Shahe_tombus-like_virus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Serratia_virus_MyoSmar/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Senegalvirus_marseillevirus/latest_assembly_versions/GCF_002833705.1_ASM283370v1/GCF_002833705.1_ASM283370v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Scot_orthonairovirus/latest_assembly_versions/GCF_002145585.1_ViralMultiSegProj386345/GCF_002145585.1_ViralMultiSegProj386345_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sauropus_leaf_curl_disease_associated_DNA_beta/latest_assembly_versions/GCF_000899295.1_ViralProj176433/GCF_000899295.1_ViralProj176433_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Satellites_of_Trichomonas_vaginalis_T1_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sanxia_water_strider_virus_20/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sanxia_tombus-like_virus_8/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sanxia_sawastrivirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/San_Perlita_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmovirus_WFRC1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_virus_rabagast/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_virus_heyday/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_virus_astrithr/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_virus_SenASZ3/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_virus_SeB/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_virus_SP126/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_virus_SG1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_virus_FelixO1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_virus_FSLSP004/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_virus_Epsilon15/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_virus_Chi/latest_assembly_versions/GCF_000909135.1_ViralProj206471/GCF_000909135.1_ViralProj206471_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_phage_vB_SenS_SB28/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_phage_vB_SenS_ER19/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_phage_vB_SalP_TR2/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_phage_KNP6/latest_assembly_versions/GCF_002991175.1_ASM299117v1/GCF_002991175.1_ASM299117v1_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Saimiriine_alphaherpesvirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Saimiri_sciureus_polyomavirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Saccharum_streak_virus/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rubber_viroid_India_2009/latest_assembly_versions/GCF_000889915.1_ViralProj48423/GCF_000889915.1_ViralProj48423_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rotavirus_G/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Roseovarius_Plymouth_podovirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rodent_associated_circovirus_7/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rio_Chico_almendravirus/latest_assembly_versions/GCF_002366105.1_ViralProj354196/GCF_002366105.1_ViralProj354196_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rhynchosia_yellow_mosaic_betasatellite/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rhodococcus_virus_RER2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rhodococcus_phage_ReqiDocB7/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rhodococcus_phage_Finch/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rhodococcus_phage_E3/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rhizoctonia_solani_endornavirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rhizoctonia_solani_dsRNA_virus_3/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rhizoctonia_solani_alphaendornavirus_2/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rhinolophus_ferrumequinum_alphacoronavirus_HuB-2013/latest_assembly_versions/GCF_001503955.1_ViralProj307858/GCF_001503955.1_ViralProj307858_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Red_clover_powdery_mildew-associated_totivirus_7/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Red_clover_powdery_mildew-associated_totivirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Ralstonia_virus_RSL1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Ralstonia_virus_RPSC1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Ralstonia_phage_Adzire/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Radish_leaf_curl_betasatellite/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Qalyub_orthonairovirus/latest_assembly_versions/GCF_002145525.1_ViralMultiSegProj386298/GCF_002145525.1_ViralMultiSegProj386298_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pythium_polare_bunya-like_RNA_virus_1/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Psittaciform_1_orthobornavirus/latest_assembly_versions/GCF_001430055.5_ViralProj300260.3/GCF_001430055.5_ViralProj300260.3_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pseudomonas_virus_phi12/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pseudomonas_virus_SM1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pseudomonas_virus_PaP1/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pseudomonas_virus_PT5/latest_assembly_versions/GCF_000874745.1_ViralProj30847/GCF_000874745.1_ViralProj30847_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pseudomonas_virus_PAKP4/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pseudomonas_virus_Andromeda/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pseudomonas_phage_Lu11/latest_assembly_versions/GCF_000897175.1_ViralProj167656/GCF_000897175.1_ViralProj167656_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Proteus_virus_Myduc/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Proteus_phage_ASh-2020a/latest_assembly_versions/GCF_013426655.1_ASM1342665v1/GCF_013426655.1_ASM1342665v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_virus_PHL308M00/latest_assembly_versions/GCF_001041195.1_ViralProj288001/GCF_001041195.1_ViralProj288001_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_virus_PHL194M00/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_virus_PHL163M00/latest_assembly_versions/GCF_001041595.1_ViralProj288006/GCF_001041595.1_ViralProj288006_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_virus_PHL151M00/latest_assembly_versions/GCF_001042315.1_ViralProj288008/GCF_001042315.1_ViralProj288008_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_virus_PHL117M00/latest_assembly_versions/GCF_001041975.1_ViralProj288011/GCF_001041975.1_ViralProj288011_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_virus_PHL067M01/latest_assembly_versions/GCF_001042015.1_ViralProj288019/GCF_001042015.1_ViralProj288019_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_virus_PHL037M02/latest_assembly_versions/GCF_000913535.1_ViralProj219116/GCF_000913535.1_ViralProj219116_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_virus_E6/latest_assembly_versions/GCF_002613265.1_ASM261326v1/GCF_002613265.1_ASM261326v1_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_phage_PHL064M01/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Prochlorococcus_virus_PSSM2/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Potato_virus_B/latest_assembly_versions/GCF_003033835.1_ASM303383v1/GCF_003033835.1_ASM303383v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Potato_spindle_tuber_viroid/latest_assembly_versions/GCF_000856265.1_ViralProj14966/GCF_000856265.1_ViralProj14966_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Posavirus_2/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Portulaca_latent_viroid/latest_assembly_versions/GCF_001045345.1_ViralProj288492/GCF_001045345.1_ViralProj288492_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Porcine_type-C_oncovirus/latest_assembly_versions/GCF_000839825.1_ViralProj14126/GCF_000839825.1_ViralProj14126_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Porcine_serum-associated_circular_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Porcine_circovirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Porcine_associated_porprismacovirus_8/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Po-Circo-like_virus_41/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Vicia_cryptic_virus_M/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Verbesina_encelioides_leaf_curl_alphasatellite/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Velvet_tobacco_mottle_virus_Satellite_RNA/latest_assembly_versions/GCF_000839285.1_ViralProj14194/GCF_000839285.1_ViralProj14194_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Vaprio_ledantevirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tylonycteris_bat_coronavirus_HKU4/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Turnip_crinkle_virus_satellite_RNA/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Trichomonas_vaginalis_virus_dsRNA_satellite_S1prime/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Trichomonas_vaginalis_virus_dsRNA_satellite_S1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Torque_teno_virus_22/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Torque_teno_virus_18/latest_assembly_versions/GCF_002986195.1_ASM298619v1/GCF_002986195.1_ASM298619v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Torque_teno_virus_17/latest_assembly_versions/GCF_002986165.1_ASM298616v1/GCF_002986165.1_ASM298616v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Torque_teno_virus/latest_assembly_versions/GCF_000893775.1_ViralProj70005/GCF_000893775.1_ViralProj70005_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_yellow_leaf_distortion_deltasatellite_2/latest_assembly_versions/GCF_002830505.1_ASM283050v1/GCF_002830505.1_ASM283050v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_yellow_leaf_distortion_deltasatellite_1/latest_assembly_versions/GCF_002830485.1_ASM283048v1/GCF_002830485.1_ASM283048v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_yellow_leaf_curl_Thailand_alphasatellite/latest_assembly_versions/GCF_000842325.1_ViralProj14300/GCF_000842325.1_ViralProj14300_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_planta_macho_viroid/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_leaf_curl_deltasatellite/latest_assembly_versions/GCF_000843845.1_ViralProj14428/GCF_000843845.1_ViralProj14428_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_leaf_curl_Hsinchu_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_leaf_curl_Cebu_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_golden_leaf_spot_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_golden_leaf_distortion_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_chlorotic_dwarf_viroid/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_bushy_stunt_virus_satellite_RNA/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tomato_apical_stunt_viroid/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tobacco_ringspot_virus_satellite_RNA/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tobacco_bushy_top_virus_satellite-like_RNA/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Tetraselmis_viridis_virus_SI1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Synechococcus_phage_KBS-M-1A/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Synechococcus_phage_ACG-2014a/latest_assembly_versions/GCF_000982265.1_ViralProj282476/GCF_000982265.1_ViralProj282476_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sweet_potato_leaf_curl_deltasatellite_3/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sweet_potato_leaf_curl_deltasatellite_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sweet_potato_leaf_curl_deltasatellite_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Subterranean_clover_mottle_virus_satellite_RNA/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Squirrelpox_virus_Berlin_2015/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Solanum_nodiflorum_mottle_virus_satellite_RNA/latest_assembly_versions/GCF_000837585.1_ViralProj14184/GCF_000837585.1_ViralProj14184_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Snyder-Theilen_feline_sarcoma_virus/latest_assembly_versions/GCF_002866945.1_ASM286694v1/GCF_002866945.1_ASM286694v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Small_begomovirus-associated_satellite/latest_assembly_versions/GCF_000922435.1_ViralProj259986/GCF_000922435.1_ViralProj259986_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sint-Jan_onion_latent_virus/latest_assembly_versions/GCF_002817675.1_ASM281767v1/GCF_002817675.1_ASM281767v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sida_golden_yellow_vein_deltasatellite_3/latest_assembly_versions/GCF_002830445.1_ASM283044v1/GCF_002830445.1_ASM283044v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sida_golden_yellow_vein_deltasatellite_2/latest_assembly_versions/GCF_002830425.1_ASM283042v1/GCF_002830425.1_ASM283042v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sida_golden_yellow_vein_deltasatellite_1/latest_assembly_versions/GCF_002830405.1_ASM283040v1/GCF_002830405.1_ASM283040v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Shigella_phage_KNP5/latest_assembly_versions/GCF_002709885.1_ASM270988v1/GCF_002709885.1_ASM270988v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Senegalvirus_marseillevirus/latest_assembly_versions/GCF_002833705.1_ASM283370v1/GCF_002833705.1_ASM283370v1_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Scot_orthonairovirus/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Sauropus_leaf_curl_disease_associated_DNA_beta/latest_assembly_versions/GCF_000899295.1_ViralProj176433/GCF_000899295.1_ViralProj176433_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_virus_Chi/latest_assembly_versions/GCF_000909135.1_ViralProj206471/GCF_000909135.1_ViralProj206471_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Salmonella_phage_KNP6/latest_assembly_versions/GCF_002991175.1_ASM299117v1/GCF_002991175.1_ASM299117v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rubber_viroid_India_2009/latest_assembly_versions/GCF_000889915.1_ViralProj48423/GCF_000889915.1_ViralProj48423_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rio_Chico_almendravirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Rhinolophus_ferrumequinum_alphacoronavirus_HuB-2013/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Qalyub_orthonairovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Psittaciform_1_orthobornavirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pseudomonas_virus_PT5/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pseudomonas_phage_Lu11/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Proteus_phage_ASh-2020a/latest_assembly_versions/GCF_013426655.1_ASM1342665v1/GCF_013426655.1_ASM1342665v1_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_virus_PHL308M00/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_virus_PHL163M00/latest_assembly_versions/GCF_001041595.1_ViralProj288006/GCF_001041595.1_ViralProj288006_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_virus_PHL151M00/latest_assembly_versions/GCF_001042315.1_ViralProj288008/GCF_001042315.1_ViralProj288008_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_virus_PHL117M00/latest_assembly_versions/GCF_001041975.1_ViralProj288011/GCF_001041975.1_ViralProj288011_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_virus_PHL067M01/latest_assembly_versions/GCF_001042015.1_ViralProj288019/GCF_001042015.1_ViralProj288019_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Propionibacterium_virus_PHL037M02/latest_assembly_versions/GCF_000913535.1_ViralProj219116/GCF_000913535.1_ViralProj219116_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Potato_virus_B/latest_assembly_versions/GCF_003033835.1_ASM303383v1/GCF_003033835.1_ASM303383v1_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Potato_spindle_tuber_viroid/latest_assembly_versions/GCF_000856265.1_ViralProj14966/GCF_000856265.1_ViralProj14966_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Portulaca_latent_viroid/latest_assembly_versions/GCF_001045345.1_ViralProj288492/GCF_001045345.1_ViralProj288492_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Porcine_type-C_oncovirus/latest_assembly_versions/GCF_000839825.1_ViralProj14126/GCF_000839825.1_ViralProj14126_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Plutella_xylostella_granulovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Planaria_asexual_strain-specific_virus-like_element_type_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Piura_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pityohyphantes_rubrofasciatus_iflavirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pithovirus_sibericum/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pitaya_virus_X/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Piscichuvirus_sanxiaense/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Piry_vesiculovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pirital_mammarenavirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pipistrellus_bat_coronavirus_HKU5/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Piper_yellow_mottle_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pipapillomavirus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pineapple_mealybug_wilt-associated_virus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Piliocolobus_rufomitratus_polyomavirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Piliocolobus_badius_polyomavirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pike_fry_sprivivirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pigeonpox_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pigeonpea_sterility_mosaic_emaravirus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phytophthora_infestans_RNA_virus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phytophthora_alphaendornavirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phytomonas_serpens_narnavirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Physostegia_chlorotic_mottle_alphanucleorhabdovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Physalis_rugose_mosaic_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Physalis_mottle_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phthorimaea_operculella_granulovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phocid_gammaherpesvirus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phnom_Penh_bat_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phlox_virus_S/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phlox_virus_M/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phlox_virus_B/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phlomis_mottle_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phlebiopsis_gigantea_mycovirus_dsRNA_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Philantomba_monticola_polyomavirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phasi_Charoen-like_phasivirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phasey_bean_mild_yellows_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phaseolus_vulgaris_alphaendornavirus_3/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Phaseolus_vulgaris_alphaendornavirus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Petunia_vein_banding_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Petunia_chlorotic_mottle_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Petunia_asteroid_mosaic_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Petrochirus_diogenes_giant_hermit_crab_associated_circular_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pestivirus_K/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pestivirus_I/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pestivirus_H/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pestivirus_F/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pestivirus_E/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pestivirus_D/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pestivirus_C/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Persimmon_viroid_2/latest_assembly_versions/GCF_000909495.1_ViralProj210930/GCF_000909495.1_ViralProj210930_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Persimmon_viroid/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Persimmon_latent_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Persimmon_cytorhabdovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Persimmon_cryptic_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Persea_americana_chrysovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Persea_americana_alphaendornavirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Perrunavirus_olsenii/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Perinet_vesiculovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Perina_nuda_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Perigonia_lusca_nucleopolyhedrovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Peridroma_alphabaculovirus/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pepper_chat_fruit_viroid/latest_assembly_versions/GCF_000881835.1_ViralProj32817/GCF_000881835.1_ViralProj32817_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pepevirus_rubrum/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Penicillum_brevicompactum_polymycovirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Penicillium_stoloniferum_virus_S/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Penicillium_stoloniferum_virus_F/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Penicillium_roqueforti_ssRNA_mycovirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Penicillium_janczewskii_chrysovirus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Penicillium_digitatum_virus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Penicillium_digitatum_polymycovirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Penicillium_digitatum_narna-like_virus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Penicillium_chrysogenum_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Penicillium_aurantiogriseum_totivirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Penicillium_aurantiogriseum_partiti-like_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pelargonium_zonate_spot_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pelargonium_vein_banding_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pelargonium_ringspot_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pelargonium_necrotic_spot_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pelargonium_line_pattern_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pelargonium_leaf_curl_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pegivirus_K/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pegivirus_E/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pegivirus_C/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pegivirus_B/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pegivirus_A/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pedosvirus_S28C3/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pediococcus_virus_cIP1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pedilanthus_leaf_curl_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pedilanthus_leaf_curl_alphasatellite/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pediavirus_cirripedis/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pectobacterium_virus_phiTE/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pectobacterium_virus_phiA41/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pectobacterium_virus_Zenivior/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pectobacterium_virus_Phoria/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pectobacterium_virus_Peat1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pectobacterium_virus_PPWS4/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pectobacterium_virus_PPWS2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pectobacterium_virus_PPWS1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pectobacterium_virus_My1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pectobacterium_virus_Lelidair/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pectobacterium_virus_Koot/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pectobacterium_virus_Khlen/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pectobacterium_virus_Jarilo/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pectobacterium_virus_Gaspode/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pecan_mosaic-associated_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Peaton_orthobunyavirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pear_blister_canker_viroid/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Peanut_stunt_virus_satellite_RNA/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Peanut_stunt_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Peanut_mottle_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Peanut_clump_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Peach_rosette_mosaic_virus/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Peach_latent_mosaic_viroid/latest_assembly_versions/GCF_000850605.1_ViralProj14772/GCF_000850605.1_ViralProj14772_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pea_enation_mosaic_virus_satellite_RNA/latest_assembly_versions/GCF_000844685.1_ViralProj14432/GCF_000844685.1_ViralProj14432_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pavonia_yellow_mosaic_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Passeriform_1_orthobornavirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Parthenium_leaf_curl_alphasatellite/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Parsley_severe_stunt_associated_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Parsley_severe_stunt_alphasatellite_4/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Parsley_severe_stunt_alphasatellite_3/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Parry_Creek_hapavirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Parrot_hepatitis_B_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Paraguayan_mammarenavirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Paracoccus_virus_Shpa/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Paracoccus_phage_vB_PmaS-R3/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Parabacteroides_phage_YZ-2015b/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Parabacteroides_phage_YZ-2015a/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Paprika_mild_mottle_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Papio_cynocephalus_polyomavirus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Papiine_gammaherpesvirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Papiine_betaherpesvirus_3/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Papiine_alphaherpesvirus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Papaya_ringspot_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Papaya_mosaic_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Papaya_leaf_curl_India_betasatellite/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Papaya_leaf_curl_Guandong_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Papaya_leaf_curl_Faisalabad_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Papaya_leaf_curl_China_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Papaya_leaf_curl_China_betasatellite/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Papaya_leaf_crumple_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Papaya_cytorhabdovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pantoea_virus_Vid5/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pantoea_virus_SSEM1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pantoea_virus_PSKM/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pantoea_virus_Limezero/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pantoea_virus_Limelight/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pantoea_virus_LIET2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pantoea_virus_AAS23/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Panthera_leo_polyomavirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Panteoa_virus_Kyle/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pansavirus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pansavirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Panine_gammaherpesvirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pandoravirus_salinus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pandoravirus_neocaledonia/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pandoravirus_macleodensis/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pandoravirus_inopinatum/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pandoravirus_dulcis/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Panax_virus_Y/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Panax_notoginseng_virus_A/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Panax_ginseng_flexivirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pan_troglodytes_troglodytes_polyomavirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pan_troglodytes_polyomavirus_8/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pan_troglodytes_polyomavirus_7/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pan_troglodytes_polyomavirus_6/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Palmarnavirus_473/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Palmarnavirus_128/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Palm_Creek_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Palaemonetes_sp._common_grass_shrimp_associated_circular_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Palaemonetes_kadiakensis_Mississippi_grass_shrimp_associated_circular_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Palaemonetes_intermedius_brackish_grass_shrimp_associated_circular_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Paguronivirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Pagavirus_S05C849/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Paenibacillus_virus_Yyerffej/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Paenibacillus_virus_Wanderer/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Paenibacillus_virus_Vegas/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Paenibacillus_virus_Tripp/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Paenibacillus_virus_Kawika/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Paenibacillus_phage_BN12/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Ostreococcus_virus_OsV5/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Oryza_rufipogon_alphaendornavirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Oryctes_rhinoceros_nudivirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Orungo_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Orthopteran_scindoambidensovirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Orthopteran_miniambidensovirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Orthopteran_anphevirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Orthohepevirus_D/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Orthohepevirus_C/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Orthohepevirus_B/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Orthohepevirus_A/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Orsay_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Orpheovirus_IHUMI-LCC2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Oropouche_orthobunyavirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Orgyia_pseudotsugata_multiple_nucleopolyhedrovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Orchid_fleck_dichorhavirus/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Orbivirus_SX-2017a/latest_assembly_versions/GCF_002005745.1_ViralMultiSegProj376171/GCF_002005745.1_ViralMultiSegProj376171_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Opuntia_virus_X/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Opuntia_virus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Opuntia_virus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Opsiphanes_invirae_iflavirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Ophiostoma_partitivirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Olive_leaf_yellowing-associated_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Okra_mosaic_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Okra_leaf_curl_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Okra_leaf_curl_betasatellite/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Okra_leaf_curl_alphasatellite/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Okra_leaf_curl_Oman_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Okra_leaf_curl_Oman_betasatellite/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Okra_leaf_curl_Mali_virus_satellite_DNA_beta/latest_assembly_versions/GCF_000865165.1_ViralProj15995/GCF_000865165.1_ViralProj15995_cds_from_genomic.fna.gz
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Okahandja_mammarenavirus/latest_assembly_versions/GCF_001019795.1_ViralMultiSegProj285599/GCF_001019795.1_ViralMultiSegProj285599_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Oinezvirus_S37C6/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Ohlsdorf_ohlsrhavirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Oenococcus_virus_phiS13/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Oenococcus_virus_phiS11/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Oenococcus_virus_phi9805/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Odonatavirus_fabricii/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Odonata-associated_circular_virus-13/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Odonata-associated_circular_virus-10/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Odonata-associated_circular_virus-1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Ocimum_yellow_vein_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Ocimum_mosaic_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Ocimum_golden_mosaic_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Ocimum_basilicum_RNA_virus_2/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Ocimum_basilicum_RNA_virus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Ochlerotatus_caspius_flavivirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Obuda_pepper_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Obodhiang_ephemerovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Oat_sterile_dwarf_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nylanderia_fulva_virus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nordland_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nora_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nootka_lupine_vein_clearing_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nonlabens_virus_P12024L/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Noni_mosaic_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nome_phantom_orthophasmavirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nohivirus_S31C1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nitrincola_phage_1M3-16/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nishimuro_ledantevirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nique_phlebovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nipah_henipavirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Niminivirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nile_crocodilepox_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nilaparvata_lugens_reovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nilaparvata_lugens_honeydew_virus-3/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Niakha_sripuvirus/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/New_World_begomovirus_associated_satellite_DNA/latest_assembly_versions/GCF_000895995.1_ViralProj88123/GCF_000895995.1_ViralProj88123_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nerine_latent_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nemesia_ring_necrosis_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Necocli_orthohantavirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Ndumu_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Natrinema_virus_SNJ1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Natrialba_virus_PhiCh1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Nariva_narmovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Narcissus_yellow_stripe_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/NY_014_poxvirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/NL63-related_bat_coronavirus_strain_BtKYNL63-9b/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Myxoma_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Myxococcus_virus_Mx8/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mytilus_sp._clam_associated_circular_virus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mythimna_unipuncta_nucleopolyhedrovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mythimna_unipuncta_granulovirus_B/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mythimna_separata_entomopoxvirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Myoviridae_sp./latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Myotis_ricketti_alphacoronavirus_Sax-2011/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Myotis_lucifugus_polyomavirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Myotis_gammaherpesvirus_8/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Myodes_narmovirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Myodes_jeilongvirus/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Myodes_glareolus_polyomavirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycoreovirus_1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycoplasma_phage_phiMFV1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycoplasma_phage_MAV1/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycobacterium_virus_lockley/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycobacterium_virus_Zemanar/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycobacterium_virus_Yoshi/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycobacterium_virus_Timshel/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycobacterium_virus_Thibault/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycobacterium_virus_ThetaBob/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycobacterium_virus_Taj/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycobacterium_virus_TM4/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycobacterium_virus_TChen/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycobacterium_virus_Sparky/latest_assembly_versions/
+cds does not exist for 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycobacterium_virus_Soto/latest_assembly_versions/GCF_000909055.1_ViralProj206028/GCF_000909055.1_ViralProj206028_cds_from_genomic.fna.gz
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycobacterium_virus_Solon/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycobacterium_virus_Skipole/latest_assembly_versions/
+cannot access 
+https://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Mycobacterium_virus_Skinnyp/latest_assembly_versions/
