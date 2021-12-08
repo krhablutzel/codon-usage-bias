@@ -102,7 +102,7 @@ def calculate_CUB(seq, species, taxon, accession_num="NA"):
         data["SeqLen"] = [len(seq)]
         data["Species"] = [species]
         data["Taxon"] = [taxon]
-        data.to_csv("working.csv", mode='a', index=False)  # append row of data
+        data.to_csv("data/working.csv", mode='a', index=False)  # append row of data
         print(data)
 
         return data
@@ -133,7 +133,7 @@ def collect_and_calculate_CUB(data_url, taxon, exclude_spec=[], include_spec=[])
         # find all species directories on the page
         include_spec = ds.getDirectories(data_url)
 
-    with open("viral_species.txt", "w") as f:
+    with open("data/viral_species.txt", "w") as f:
         f.write("\n".join(include_spec))  # string of species directories from viral page
 
     if include_spec is None:
@@ -205,11 +205,11 @@ def main():
             taxon_cubs = calculate_CUB_stored_files(data_folder, spec_list, taxon)
         elif resume_run:  # make sure to start from the taxon we stopped at!
             fp.clean_working_csv()
-            existing_data = pd.read_csv("working_clean.csv")
+            existing_data = pd.read_csv("data/working_clean.csv")
             exclude_spec = list(existing_data["Species"])
             print("Excluding\n", exclude_spec[:20])
             if run_from_species_urls:
-                with open("viral_species_2.txt", "r") as spec_file:
+                with open("data/viral_species.txt", "r") as spec_file:
                     lines = spec_file.readlines()
                     include_spec = [line[:-1] for line in lines]  # remove \n
                     print("Including\n", include_spec[:20])
@@ -221,10 +221,10 @@ def main():
             taxon_cubs = collect_and_calculate_CUB(url, taxon)
         all_taxa = pd.concat(taxon_cubs)
         all_cubs.append(all_taxa)
-        all_taxa.to_csv("working_by_taxon.csv", mode='a', index=False)
+        all_taxa.to_csv("data/working_by_taxon.csv", mode='a', index=False)
 
     # write table of CUBs to out_file
-    out_file = "cub.csv"
+    out_file = "data/cub.csv"
     out_cub = pd.concat(all_cubs)
     out_cub.to_csv(out_file, index=False)
 

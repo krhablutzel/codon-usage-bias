@@ -1,5 +1,6 @@
 # fasta parser
 
+import pandas as pd
 from Bio import SeqIO
 from Bio.Seq import Seq
 from io import StringIO
@@ -48,7 +49,7 @@ def splice_fasta_2(file_content):
 
 def clean_working_csv():
     """Remove duplicate headers from working.csv output file"""
-    with open("working.csv", "r") as working:
+    with open("data/working.csv", "r") as working:
         keep_content = working.readline()  # read header
         new_line = working.readline()  # read next line
         count = 1
@@ -58,7 +59,7 @@ def clean_working_csv():
             new_line = working.readline()
             count += 1
 
-        with open("working_clean.csv", "w") as f:
+        with open("data/working_clean.csv", "w") as f:
             f.write(keep_content)
 
 
@@ -84,5 +85,21 @@ def report_error_log():
     return cannot_access
 
 
+def combine_datasets():
+    # read in datasets
+    animal_plant = pd.read_csv("data/working_animals_and_plants.csv")
+    virus = pd.read_csv("data/working_virus.csv")
+    print(animal_plant.shape)
+    print(virus.shape)
+
+    # stack into one
+    all_pd = pd.concat([animal_plant, virus])
+    print(all_pd.shape)
+
+    # save the combined animal/plants + virus dataset
+    all_pd.to_csv("data/all_taxa_12-7.csv", index=False)
+
+
 # run fasta_parser to clean the working.csv in this directory
 clean_working_csv()
+combine_datasets()
