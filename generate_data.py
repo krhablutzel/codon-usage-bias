@@ -8,110 +8,13 @@ import fasta_parser as fp
 from Bio import SeqIO
 from Bio.Seq import Seq
 import pandas as pd
-
-
-def count_codons(seq):
-    """returns dict w/ counts of each codon"""
-    if len(seq) % 3 != 0:
-        print(f'Error: seq len {len(seq)}. sequence must have length multiple of 3.')
-        return -1
-
-    codons = {}
-    for i in range(0, 300, 3):  # len(seq), 3):
-        codon = str(seq[i:i+3])
-        if codon in codons:
-            codons[codon] += 1
-        else:
-            codons[codon] = 1
-
-    return codons
-
-
-def convert_to_fraction(codons):
-    """convert each codon count to a fraction of total occurrences for an amino acid"""
-    # excludes codons with an unknown base (N)
-    uchart = {"Phe": ["UUU", "UUC"],
-              "Leu": ["UUA", "UUG", "CUU", "CUC", "CUA", "CUG"],
-              "Ile": ["AUU", "AUC", "AUA"],
-              "Met": ["AUG"],
-              "Val": ["GUU", "GUC", "GUA", "GUG"],
-              "Ser": ["UCU", "UCC", "UCA", "UCG", "AGU", "AGC"],
-              "Pro": ["CCU", "CCC", "CCA", "CCG"],
-              "Thr": ["ACU", "ACC", "ACA", "ACG"],
-              "Ala": ["GCU", "GCC", "GCA", "GCG"],
-              "Tyr": ["UAU", "UAC"],
-              "Stop": ["UAA", "UAG", "UGA"],
-              "His": ["CAU", "CAC"],
-              "Gln": ["CAA", "CAG"],
-              "Asn": ["AAU", "AAC"],
-              "Lys": ["AAA", "AAG"],
-              "Asp": ["GAU", "GAC"],
-              "Glu": ["GAA", "GAG"],
-              "Cys": ["UGU", "UGC"],
-              "Trp": ["UGG"],
-              "Arg": ["CGU", "CGC", "CGA", "CGG", "AGA", "AGG"],
-              "Gly": ["GGU", "GGC", "GGA", "GGG"]}
-
-    freqs = {}
-
-    for aa in uchart:
-        # count occurrences of aa
-        count = 0
-        for codon in uchart[aa]:
-            if codon in codons:
-                count += codons[codon]
-
-        # insert relative codon freq into freq table
-        for codon in uchart[aa]:
-            if codon in codons:
-                freqs[codon] = [codons[codon] / count]
-            else:
-                freqs[codon] = [0]  # codon never used
-
-    return freqs
-
-
-def calculate_CUB_stored_file(data_folder, spec_list, taxon):
-    for i in range(3):
-        species = spec_list[i]
-        print(species)
-
-        # combine the fasta into one long sequence
-        dna = fp.splice_fasta(f'{data_folder}/{species}.fna')
-
-        # transcribe to RNA
-        seq = dna.transcribe()
-
-        return calculate_CUB(seq, species, taxon)  # doesn't currently support accession nums
-
-
-def calculate_CUB(seq, species, taxon, accession_num="NA"):
-    # calculate codon usage bias for sequence
-    print(str(seq)[:100])
-    print(f'len: {len(seq)}')
-
-    codons = count_codons(seq)
-    # print(codons)
-
-    if codons != -1:
-        freqs = convert_to_fraction(codons)
-        # print(freqs)
-
-        data = pd.DataFrame.from_dict(freqs)
-        data["AccessionNum"] = [accession_num]
-        data["SeqLen"] = [len(seq)]
-        data["Species"] = [species]
-        data["Taxon"] = [taxon]
-        data.to_csv("data/working.csv", mode='a', index=False)  # append row of data
-        print(data)
-
-        return data
+import statistics
 
 
 def calculate_CUB_stored_files(data_folder, spec_list, taxon):
     """calculate CUB for multiple locally stored files in a list"""
     taxon_cubs = []
-    for i in range(3):
+    for i in range(len(spec_list)):
         species = spec_list[i]
         print(species)
 
@@ -122,7 +25,8 @@ def calculate_CUB_stored_files(data_folder, spec_list, taxon):
         seq = dna.transcribe()
 
         # calculate CUB
-        cub = calculate_CUB(seq, species, taxon)
+        cub = fp.calculate_CUB(seq, species, taxon)
+        print(cub)
         taxon_cubs.append(cub)
 
     return taxon_cubs
@@ -133,17 +37,19 @@ def collect_and_calculate_CUB(data_url, taxon, exclude_spec=[], include_spec=[])
         # find all species directories on the page
         include_spec = ds.getDirectories(data_url)
 
-    with open("data/viral_species.txt", "w") as f:
-        f.write("\n".join(include_spec))  # string of species directories from viral page
+        if include_spec is None:  # blocked from ncbi
+            print("found no include species")
+            return
 
-    if include_spec is None:
-        return
+        # exclude until working with viruses again
+        # with open("data/viral_species.txt", "w") as f:
+            # f.write("\n".join(include_spec))  # string of species directories from viral page
 
     # remove species we've already calculated cub for
     all_species = [species for species in include_spec if species[:-1] not in exclude_spec]
 
     # print the species we're about to iterate over
-    all_species.sort(reverse=True)  # iterate from Z viruses b/c blocked from A still
+    # all_species.sort(reverse=True)  # iterate from Z viruses b/c blocked from A still
     print("iterating on:", all_species[:min(len(all_species), 20)])  # print up to 20 directories
 
     taxon_cubs = []
@@ -170,13 +76,15 @@ def collect_and_calculate_CUB(data_url, taxon, exclude_spec=[], include_spec=[])
         accession_num, file_content = result
 
         # combine the fasta into one long sequence
-        dna = fp.splice_fasta_2(file_content)
+        dna = fp.splice_fasta_in_memory(file_content)
+        dna_biased = fp.splice_fasta_in_memory(file_content, biased=True)
 
         # transcribe to RNA
-        seq = dna.transcribe()
+        seq = dna.transcribe()  # use biased regions only for now
+        seq_biased = dna_biased.transcribe()
 
         # calculate CUB
-        cub = calculate_CUB(seq, species, taxon, accession_num)
+        cub = fp.calculate_CUB(seq_biased, species, taxon, accession_num, len(dna), fp.wright_CUB(seq))
         taxon_cubs.append(cub)
 
     return taxon_cubs
@@ -190,9 +98,9 @@ def main():
         url = f'https://ftp.ncbi.nlm.nih.gov/genomes/refseq/{taxon}/'
         data_folder = 'data'
         download = False  # whether to download new data from ncbi
-        from_memory = False  # whether to calculate based on local fasta files
+        from_memory = True  # whether to calculate based on local fasta files
         resume_run = True  # resume from interrupted run
-        run_from_species_urls = True  # run from list of species urls (from error log)
+        run_from_species_urls = False  # run from list of species urls (from error log)
         if download:  # download every genome to local storage
             spec_list = [spec[:-1] for spec in ds.collect_data(url, data_folder)]
             taxon_cubs = calculate_CUB_stored_files(data_folder, spec_list, taxon)
@@ -217,7 +125,16 @@ def main():
                 include_spec = []
             new_data = collect_and_calculate_CUB(url, taxon, exclude_spec, include_spec)
             taxon_cubs = pd.concat([existing_data, new_data])
+        elif run_from_species_urls:  # but not resuming run
+            print("running from species urls")
+            # include-spec is currently empty???
+            with open("data/viral_species.txt", "r") as spec_file:
+                lines = spec_file.readlines()
+                include_spec = [line[:-1] for line in lines]  # remove \n
+                print("Including\n", include_spec[:20])
+            taxon_cubs = collect_and_calculate_CUB(url, taxon, include_spec=include_spec)
         else:  # most cohesive mode - download seq only temporarily to calculate cub
+            print("~~beginning normal run~~")
             taxon_cubs = collect_and_calculate_CUB(url, taxon)
         all_taxa = pd.concat(taxon_cubs)
         all_cubs.append(all_taxa)

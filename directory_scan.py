@@ -4,7 +4,7 @@ import random
 import requests
 from bs4 import BeautifulSoup
 import gzip
-import fasta_parser as fp
+# import fasta_parser as fp
 from Bio import SeqIO
 from Bio.Seq import Seq
 
@@ -26,10 +26,12 @@ def getDirectories(url, level=0):
     # time.sleep(random.randint(3, 8))  # wait a bit so we don't query too fast (triggers ncbi access block)
     time.sleep(random.randint(5, 8))  # wait a bit so we don't query too fast (triggers ncbi access block)
 
-    if level >= 3:  # still blocked from NCBI servers
+    if level >= 2:  # still blocked from NCBI servers
         with open("error_log.txt", "a") as f:
             f.write("cannot access \n" + url + "\n")
             return
+    elif level > 0:
+        time.sleep(20 * level)  # wait a bit more before continuing to query
 
     # https://stackoverflow.com/questions/11023530/python-to-list-http-files-and-directories/34718858
     page = requests.get(url).text
@@ -41,16 +43,12 @@ def getDirectories(url, level=0):
     # directory text/name ends in /
     directories = [node.getText() for node in soup.find_all('a') if node.getText().endswith('/')]
 
-    if VERBOSE:
-        print(directories[:min(len(directories), 20)])  # print up to first 20 directories
+    # if VERBOSE:  # don't print for now
+    # print(directories[:min(len(directories), 20)])  # print up to first 20 directories
 
     if not directories:  # ncbi mistook query for DOS attack and blocked access
-        # go quickly - reverse this later
-        # time.sleep(30*(level+1))   # wait a bit before continuing to query
-        # return getDirectories(url, level=level+1)
-        with open("error_log.txt", "a") as f:
-            f.write("cannot access \n" + url + "\n")
-            return
+        print("...connection refused, trying again...")
+        return getDirectories(url, level=level+1)
 
     return directories
 
@@ -70,11 +68,11 @@ def downloadFasta(data_url, spec_dir, out_folder=".", download=True, viral=False
     ref_seq_parent_url = data_url + f'{spec_dir}{sub_dir}'
 
     # skip url if in error log
-    errors = fp.report_error_log()
+    # errors = fp.report_error_log()
     # print("errors:", errors)
-    if ref_seq_parent_url in errors:  # TODO: skip this url - not working currently???
-        print("skipping - see error log")
-        return
+    # if ref_seq_parent_url in errors:
+        # print("skipping - see error log")
+        # return
 
     # else, find refseq name
     ref_seq = getDirectories(ref_seq_parent_url)

@@ -30,7 +30,10 @@ def reduce_dim(data_pd, dim=2, vertebrate=True):
 
     # run PCA
     pca_alg = PCA(n_components=dim)
-    data_2d = pd.DataFrame(pca_alg.fit_transform(data_std), columns=["Dim1", "Dim2"])
+    if dim == 2:
+        data_2d = pd.DataFrame(pca_alg.fit_transform(data_std), columns=["Dim1", "Dim2"])
+    else:
+        data_2d = pd.DataFrame(pca_alg.fit_transform(data_std), columns=["Dim1", "Dim2", "Dim3"])
 
     # add back metadata
     if vertebrate:
