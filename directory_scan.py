@@ -47,8 +47,9 @@ def getDirectories(url, level=0):
     # print(directories[:min(len(directories), 20)])  # print up to first 20 directories
 
     if not directories:  # ncbi mistook query for DOS attack and blocked access
-        print("...connection refused, trying again...")
-        return getDirectories(url, level=level+1)
+        print("...connection refused...")
+        return
+        # return getDirectories(url, level=level+1)  # don't recurse for now
 
     return directories
 
@@ -76,7 +77,8 @@ def downloadFasta(data_url, spec_dir, out_folder=".", download=True, viral=False
 
     # else, find refseq name
     ref_seq = getDirectories(ref_seq_parent_url)
-    if ref_seq is None:
+    print("ref_seq:", ref_seq)
+    if ref_seq is None or ref_seq is []:
         return
     else:
         ref_seq = ref_seq[0]

@@ -62,7 +62,7 @@ def count_codons(seq):
         return -1
 
     codons = {}
-    for i in range(0, len(seq), 3):
+    for i in range(0, len(seq), 3):  # count codons in whole genome!!!
         codon = str(seq[i:i+3])
         if codon in codons:
             codons[codon] += 1
@@ -149,13 +149,13 @@ def wright_CUB(seq):
     # error handling
     # okay if we overestimate Nc, we'll just miss some bias bc sequence too short
     if (2 not in n_codons) or (isclose(f_duet, 0)):
-        f_duet = 9  # stop including f_duet in bias
+        f_duet = 1  # stop including f_duet in bias
     if (3 not in n_codons) or (isclose(f_trio, 0)):
         f_trio = 1  # stop including f_trio in bias
     if (4 not in n_codons) or (isclose(f_quartet, 0)):
-        f_quartet = 5  # stop including f_quartet in bias
+        f_quartet = 1  # stop including f_quartet in bias
     if (6 not in n_codons) or (isclose(f_sextet, 0)):
-        f_sextet = 3  # stop including f_sextet in bias
+        f_sextet = 1  # stop including f_sextet in bias
 
     # print(f_duet, f_trio, f_quartet, f_sextet)
 
@@ -166,7 +166,7 @@ def wright_CUB(seq):
     return n_c
 
 
-def calculate_CUB(seq, species, taxon, accession_num="NA", orig_len="NA", orig_nc="NA"):
+def calculate_CUB(seq, species, taxon, accession_num="NA", orig_len="NA", orig_nc="NA", biased_regions="NA"):
     # calculate codon usage bias for sequence
     print(str(seq)[:100])
     print(f'len: {len(seq)}')
@@ -187,6 +187,7 @@ def calculate_CUB(seq, species, taxon, accession_num="NA", orig_len="NA", orig_n
         # print(freqs)
 
         data = pd.DataFrame.from_dict(freqs)
+        data["BiasedRegionsOnly"] = [biased_regions]
         data["AccessionNum"] = [accession_num]
         data["SeqLen"] = [orig_len]
         data["BiasedSeqLen"] = [len(seq)]

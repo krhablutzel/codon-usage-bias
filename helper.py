@@ -14,32 +14,22 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
 
-def reduce_dim(data_pd, dim=2, vertebrate=True):
+def reduce_dim(data_pd, dim=2, drop_columns=[], vertebrate=False):
     # separate out numeric data
     if vertebrate:
-        data_num = data_pd.drop(columns=["AccessionNum", "SeqLen", "Species",
-                                         "Taxon", "UAA", "UAG", "UGA", "Vertebrate"]).to_numpy()
-    else:
-        data_num = data_pd.drop(columns=["AccessionNum", "SeqLen", "Species",
-                                         "Taxon", "UAA", "UAG", "UGA"]).to_numpy()
+        drop_columns.append("Vertebrate")
 
-    # standardize numeric data
-    # std vs norm vs [nothing]
-    # data_std = standardize(data_num)
-    data_std = data_num
+    data_num = data_pd.drop(columns=drop_columns)
+    data_std = data_num.to_numpy()
 
     # run PCA
     pca_alg = PCA(n_components=dim)
-    if dim == 2:
-        data_2d = pd.DataFrame(pca_alg.fit_transform(data_std), columns=["Dim1", "Dim2"])
-    else:
-        data_2d = pd.DataFrame(pca_alg.fit_transform(data_std), columns=["Dim1", "Dim2", "Dim3"])
+    component_names = [f'Dim{i+1}' for i in range(dim)]  # name PCA columns
+    data_2d = pd.DataFrame(pca_alg.fit_transform(data_std), columns=component_names)
 
     # add back metadata
-    if vertebrate:
-        metadata = data_pd[["AccessionNum", "SeqLen", "Species", "Taxon", "Vertebrate"]]
-    else:
-        metadata = data_pd[["AccessionNum", "SeqLen", "Species", "Taxon"]]
+    metadata = data_pd[drop_columns]
+    metadata.reset_index(drop=True, inplace=True)
     data_2d_meta = pd.concat([data_2d, metadata], axis=1)
 
     return data_2d_meta
@@ -164,7 +154,7 @@ def cross_validation(data, method, k):
             mod = DecisionTreeClassifier()
         elif method == 'forest':
             # build random forest classifier for training data
-            mod = RandomForestClassifier(n_estimators=10, max_features=min(3, n_predictors), max_depth=3,
+            mod = RandomForestClassifier(n_estimators=20, max_features=min(3, n_predictors), max_depth=3,
                                          random_state=0)
 
         mod.fit(train.iloc[:, :-1], train.iloc[:, -1])  # class var in last column
